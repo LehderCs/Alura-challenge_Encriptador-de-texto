@@ -63,7 +63,7 @@ function desencriptar() {
         .replaceAll("imes", "i")
         .replaceAll("ober", "o")
         .replaceAll("ai", "a")
-        .replaceAll("u", "ufat");
+        .replaceAll("ufat", "u");
 
     inputResultado.value = mensaje;
     inputMensaje.value="";
